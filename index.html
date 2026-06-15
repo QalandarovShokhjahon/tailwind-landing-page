@@ -12,30 +12,90 @@
 </head>
 <body class="bg-[#11071F] font-['Lato',sans-serif]">
     <header class="flex justify-between items-center py-6 px-[10%] z-70 sticky inset-0 bg-[#11071F]/50 backdrop-blur-2xl shadow-md shadow-[#776bfd]">
-        <a class="text-2xl uppercase text-red-600 tracking-wide" href="#">Portfolio</a>
-        <nav class="flex gap-10 text-[#959595] text-lg tracking-wide">
+        <a class="text-2xl font-semibold uppercase text-red-600 tracking-wide" href="#">Portfolio</a>
+        <nav class="hidden md:flex gap-10 text-[#959595] text-lg tracking-wide">
             <a href="#">Home</a>
             <a href="#">About me</a>
             <a href="#">Services</a>
             <a href="#">Portfolio</a>
             <a href="#">Contact me</a>
         </nav>
-        <a class="text-white bg-red-600 py-2 px-8 rounded-[5px] tracking-wider" href="#">Contact</a>
+        <a class="text-white bg-red-500 py-2 px-8 rounded-[5px] tracking-wider" href="#">Contact</a>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <section class="flex justify-between items-center py-7 px-[10%]">
-            <div>
-                <span>Hi I am</span>
-                <h2>Shokhjahon Qalandarov</h2>
-                <h1>Full-Stack Developer</h1>
-                <div>
-                    <a href="#">Contact</a>
-                    <a href="#">Download CV</a>
+        <section class="flex justify-between items-center py-5 px-[10%]">
+            <div class="flex flex-col gap-5">
+                <span class="text-[#707070] text-2xl">Hi I am</span>
+                <h2 class="text-[#959595] text-3xl">Shokhjahon Qalandarov</h2>
+                <h1 class="text-[#776Bfd] text-5xl">Full-Stack Developer</h1>
+                <div class="flex flex-col md:flex-row gap-5 py-10">
+                    <a class="text-white bg-red-500 py-3 px-8 rounded-[5px] tracking-wider" href="#">Contact</a>
+                    <a class="bg-transparent border-2 border-white text-white py-3 px-8 rounded-[5px] tracking-wider" href="#">Download CV</a>
                 </div>
             </div>
+            <div>
+                <img class="hidden md:block w-[400px]" src="images/img.png" alt="">
+            </div>
         </section>
+
+        <!-- Services Section -->
+         <section class="flex flex-col py-[10%] px-[10%] justify-center items-center gap-5">
+            <h1 class="text-[#959595] text-4xl font-medium tracking-wide">Services</h1>
+            <p class="text-[#707070] text-[20px] text-center">Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 py-10 justify-center items-center text-center">
+                <div class="bg-[#190633] justify-center items-center py-10 px-8 rounded-4xl gap-5 flex flex-col">
+                    <img class="w-[50px] mx-auto" src="images/icon.png" alt="">
+                    <h3 class="text-red-700 text-2xl">App Design</h3>
+                    <p class="text-[#707070] text-[20px]">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="bg-[#190633] justify-center items-center py-10 px-8 rounded-4xl gap-5 flex flex-col">
+                    <img class="w-[50px] mx-auto" src="images/icon.png" alt="">
+                    <h3 class="text-red-700 text-2xl">App Design</h3>
+                    <p class="text-[#707070] text-[20px]">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="bg-[#190633] justify-center items-center py-10 px-8 rounded-4xl gap-5 flex flex-col">
+                    <img class="w-[50px] mx-auto" src="images/icon.png" alt="">
+                    <h3 class="text-red-700 text-2xl">App Design</h3>
+                    <p class="text-[#707070] text-[20px]">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="bg-[#190633] justify-center items-center py-10 px-8 rounded-4xl gap-5 flex flex-col">
+                    <img class="w-[50px] mx-auto" src="images/icon.png" alt="">
+                    <h3 class="text-red-700 text-2xl">App Design</h3>
+                    <p class="text-[#707070] text-[20px]">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="bg-[#190633] justify-center items-center py-10 px-8 rounded-4xl gap-5 flex flex-col">
+                    <img class="w-[50px] mx-auto" src="images/icon.png" alt="">
+                    <h3 class="text-red-700 text-2xl">App Design</h3>
+                    <p class="text-[#707070] text-[20px]">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="bg-[#190633] justify-center items-center py-10 px-8 rounded-4xl gap-5 flex flex-col">
+                    <img class="w-[50px] mx-auto" src="images/icon.png" alt="">
+                    <h3 class="text-red-700 text-2xl">App Design</h3>
+                    <p class="text-[#707070] text-[20px]">Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- About Me Section -->
+          <section class="flex flex-col px-[10%] items-center gap-5 mb-10">
+            <h1 class="text-[#959595] text-4xl font-medium tracking-wide">About Me</h1>
+            <p class="text-[#707070] text-[20px] text-center">User Interface and User Experience and Also video editing</p>
+            <div class="flex flex-col md:flex-row gap-30 justify-center items-center">
+                <div>
+                    <img class="w-[400px]" src="images/img.png" alt="">
+                </div>
+                <div class="flex flex-col gap-10">
+                    <p class="max-w-xl text-[#959595] text-[20px]">I am Jakhongir Narzullayev, a passionate and dedicated Fullstack Developer with over 2 years of experience navigating the vast world of programming. From the very beginning of my journey in technology, I have been driven by curiosity, creativity, and a relentless desire to build and innovate. Over the years, I have mastered a wide range of frontend and backend technologies, including HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, Python, and Django. I have applied these skills to design, develop, and deliver numerous projects, each one a testament to my commitment to quality, functionality, and elegant solutions. In everything I do, my goal is to innovate, inspire, and leave a lasting mark.</p>
+                    <a class="text-white text-[20px] bg-red-500 py-3 px-10 rounded-[5px] tracking-wider w-max" href="#">Download CV</a>
+                </div>
+            </div>
+          </section>
     </main>
+
+    <footer class="bg-[#190633] text-white py-10 text-center">
+        <p>© 2026 All rights reserved</p>
+    </footer>
 </body>
 </html>
